@@ -73,6 +73,6 @@ function pauseVid() {
  }
 
  function color() {
-	 document.getElementById('myVideo').className = 'grayscale(0%)';
+	 document.getElementById('myVideo').className -= 'grayscale';
  	console.log("In color") 
  }
